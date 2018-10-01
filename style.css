@@ -10,7 +10,7 @@ body {
 	width: 100%;
 	height: 100%;
 	padding: 0;
-	background-color: #1e1e32;
+	background-color: #1e1e1e;
 	color: #ff4632;
 	/*background-image: url("images/sadrin-1.png"), url(images/miostare-1.png);
     background-repeat: no-repeat;
@@ -69,7 +69,7 @@ left: 50%;
 	text-align: center;
 	width: 10rem;
 	margin: 2rem auto;
-	background-color: rgba(30,30,50,0.50);
+	background-color: rgba(30,30,30,0.50);
 }
 
 .search {
@@ -84,7 +84,7 @@ left: 50%;
 	width: 100%;
 	margin: auto;
 	padding: 0;
-	background-color: rgba(30, 30, 50, 0);
+	background-color: rgba(30, 30, 30, 0);
 	color: #cc99ff;
 	border: none;
 	
