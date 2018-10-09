@@ -7,9 +7,7 @@ html {
 }
 
 body {
-	width: 100%;
-	height: 100%;
-	padding: 0;
+
 	background-color: #1e1e1e;
 	color: #ff4632;
 	/*background-image: url("images/sadrin-1.png"), url(images/miostare-1.png);
@@ -19,39 +17,11 @@ body {
 }
 
 /*trying to place rin on the left of the screen*/
-
-.sadrin{
-width:250px;
-height:287px;
-max-height:287px;
-position:absolute;
-bottom:0px;
-left: 10px;
-background-image: url("images/sadrin-1.png");
-background-repeat: no-repeat;
+.txt{
+	width: 300px;
+	height: 150px;
 }
 
-.miostare{
-width:250px;
-height:250px;
-max-height:250px;
-background-image: url("images/miostare-1.png");
-background-repeat: no-repeat;
-position:absolute;
-bottom:0px;
-right:-20px;
-}
-
-.passu{
-width:250px;
-height:250px;
-max-height:250px;
-background-image: url("images/passu-1.png");
-background-repeat: no-repeat;
-position:absolute;
-bottom:0px;
-left: 50%;	
-}
 
 .container {
 	padding-top: 100px;
