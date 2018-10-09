@@ -6,9 +6,33 @@
 		<!-- <link rel="icon" href="content/images/favicon.ico"> this is the page faveicon--> 
 		<link rel="icon" href="/favicon.ico">
 		<meta charset="utf-8">
-		
+		<script>
+
+			
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
 	</head>
 	<body>
+		<center><body onload="startTime()">
+
+<div id="txt"></div></body></center>
+
+<div class="bg-image"></div>
+
 		<div class="container">
 			
 			<!-- search bar -->
@@ -21,7 +45,7 @@
 
 			
 			<div class="search">
-				<form method="get" action="https://google.com/search?q=">
+				<form method="get" action="https://duckduckgo.com/">
 					<input class="search-box" name="q" type="text" placeholder="search" />
 				</form>
 			</div>
@@ -29,23 +53,16 @@
 			<div class="favorites">
 				<div class="favorites-list">
 					<ul>
-						<li><p><center>productivity</center></p></li>
+						<li><p><center>Productivity</center></p></li>
 						<li><a href="https://mail.google.com/mail/"><img src="icons\gmail.png"> Gmail</a></li>
 						<li><a href="https://onedrive.live.com/?id=root&cid=3DD18807D1571925"><img src="icons\onedrive.png"> OneDrive</a></li>
 						<li><a href="https://github.com/explore"><img src="icons\github.png"> Github</a></li>
 						<li><a href="https://mega.nz/fm/MTJkQYQB"><img src="icons\mega.png"> Mega</a></li>	
+						<li><a href="https://1819.moodle.isel.pt/?redirect=0"><img src="icons\isel.png"> Moodle</a></li>
+						<li><a href="https://pastebin.com/u/-zyn"><img src="icons/pastebin.png"> Pastebin</a></li>
 						</ul>
 				</div>
 				
-				<div class="favorites-list">
-					<ul>
-						<li><p><center>Weeb stuff</center></p></li>
-						<li><a href="https://nyaa.pantsu.cat/"><img src="icons\nyaa pantsu.png"> Nyaa.Pantsu</a></li>
-						<li><a href="http://kissanime.ru/"><img src="icons\kissanime.png">Kissanime</a></li>
-						<li><a href="https://nyaa.si/"><img src="icons\nyaa pantsu.png">Nyaa.si</a></li>
-					</ul>
-				</div>
-
 				<div class="favorites-list">
 					<ul>
 						<li><p><center>Entertainment</center></p></li>
@@ -54,22 +71,18 @@
 						<li><a href="https://twitter.com"><img src="icons\twitter.png"> Twitter</a></li>
 						<li><a href="https://www.reddit.com/"><img src="icons\reddit.png"> Reddit</a></li>
 						<li><a href="https://www.4chan.org/"><img src="icons\4chan.png"> 4chan</a></li>
+						<li><a href="http://kissanime.ru/"><img src="icons\kissanime.png">Kissanime</a></li>
+					</ul>
+				</div>
+				
+				<div class="favorites-list">
+					<ul>
+						<li><p><center>Media</center></p></li>
 						<li><a href="https://app.plex.tv/desktop"><img src="icons\plex.png"> Plex</a></li>
 						<li><a href="https://jpopsuki.eu/"><img src="icons\jpop.png"> Jpop</a></li>
 						<li><a href="https://soundcloud.com/"><img src="icons\soundcloud.png">Soundcloud</a></li>
-					</ul>
-				</div>
-				<div class="favorites-list">
-					<ul>
-						<li><p><center>SubReddits</center></p></li>
-
-					</ul>
-				</div>
-
-				<div class="favorites-list">
-					<ul>
-						<li><p><center>Trackers</center></p></li>
-
+						<li><a href="https://nyaa.pantsu.cat/"><img src="icons\nyaa pantsu.png"> Nyaa.Pantsu</a></li>
+						<li><a href="https://nyaa.si/"><img src="icons\nyaa pantsu.png">Nyaa.si</a></li>
 					</ul>
 				</div>
 			</div>
