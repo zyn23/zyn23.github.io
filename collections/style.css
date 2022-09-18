@@ -1,12 +1,20 @@
 body {
-	height: 100em;
-	#width: 50em;
-	margin: 100px;
-	font-family: Helvetica, sans-serif;
-	font-size: 20px;
-	background-color: #24273a;
-	color: #ffffff;
-}
+
+				height: 100em;
+				#width: 50em;
+				margin: 100px;
+				font-family: Helvetica, sans-serif;
+				font-size: 20px;
+				background-color: #24273a;
+				color: #ffffff;
+			}
+			
+			
+			/* Add a black background color to the top navigation */
+			.topnav {
+			  background-color: #333;
+			  overflow: hidden;
+			}
 
 
 /* Add a black background color to the top navigation */
