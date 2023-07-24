@@ -4,7 +4,28 @@ body {
 	margin: 100px;
 	font-family: Helvetica, sans-serif;
 	font-size: 20px;
-	background-color: #000000;
-	color: #ffffff;
+	background-color: #24273a;
+	color: #cad3f5;
 }
 
+a:link {
+    color: #a6da95;
+}
+
+a:visited {
+    color: #a6da95;
+}
+
+table, th, td {
+	border: 2px solid;
+	border-collapse: collapse;
+  }
+
+table {
+	width: 1500px;
+}
+
+th {
+	background-color: #24273a;
+	color: peachpuff;
+}
